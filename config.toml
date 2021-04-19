@@ -21,3 +21,8 @@ pygmentsUseClasses = true
 
   [markup.tableOfContents]
     ordered = true
+
+[[menu.main]]
+name = "Stolen Lands Map"
+url = "stolenlands.html"
+weight = 50

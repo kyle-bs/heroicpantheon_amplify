@@ -1,0 +1,188 @@
+{
+	"mapwidth":"640",
+	"mapheight":"420",
+  "categories":[
+    {
+      "id": "outpost",
+      "title": "Outposts",
+      "color": "#4d5e6d",
+      "toggle": "true",
+      "legend": "true"
+    },
+    {
+      "id": "lair",
+      "title": "Lairs",
+      "color": "#4d5e6d",
+      "toggle": "true",
+      "legend": "true"
+    },
+    {
+      "id": "dungeon",
+      "title": "Dungeons",
+      "color": "#4d5e6d",
+      "toggle": "true",
+      "legend": "true"
+    },
+    {
+      "id": "landmark",
+      "title": "Landmarks",
+      "color": "#4d5e6d",
+      "toggle": "true",
+      "legend": "true"
+    }
+  ],
+	"levels":[
+		{
+			"id":"stolenlands",
+			"title":"Stolen Lands",
+			"map":"maps/stolenlands.svg",
+			"locations":[
+  				{
+  					"id": "partyishere",
+  					"title": "Current Location",
+  					"description": "<p>The party is currently located here.",
+  					"pin": "pin-pulse pin-label",
+            "label": "P",
+            "fill": "#007CBA",
+            "category": "landmark",
+            "x": "0.5893",
+  					"y": "0.4014"
+  				},
+				{
+					"id": "olegs",
+					"title": "Oleg's Trading Post",
+					"description": "<p>This abandoned border fort at the southern edge of Rostland has found new life recently. Oleg and Svetlana Leveton, a couple from Restov, rebuilt it into a trading post, which is now one of the few hospitable shelters for travelers passing through the area. Oleg is a gruff and rough trademaster - a counter to Svetlana's more caring approach.</p><p><em>Session 2: Oleg's Trading Post</em></p>",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/772972299002445826",
+					"pin": "pin-square pin-label",
+					"label": "images/stable.svg",
+          "fill": "transparent",
+          "category": "outpost",
+					"x": "0.5931",
+					"y": "0.1953"
+				},
+        {
+					"id": "fangberry",
+					"title": "Fangberry Cave",
+					"description": "<p>The origin of this giant burrow remains a mystery to the locals. It was named for the plant known as fangberry that grows in the area, a pricky bush that requires utmost care to harvest. It is currently home to a colony of monstrous spiders lead by one known as the 'Spider King'.</p><p><em>Session 3: The Plan Forward</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/780083439113863179",
+					"label": "images/spider-alt.svg",
+          "fill": "transparent",
+          "category": "lair",
+					"x": "0.6396",
+					"y": "0.2226"
+				},
+        {
+					"id": "thorn",
+					"title": "Thorn Ford",
+					"description": "<p>This ford in the heart of the woods is one of the best places to cross the Thorn River. Most traders and travelers choose the Thorn Ford for passage - attracting bandits to the place as well.</p><p><em>Session 4: Exploring the Outskirts</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/787457452214845472",
+					"label": "images/camping-tent.svg",
+          "fill": "transparent",
+          "category": "lair",
+					"x": "0.5349",
+					"y": "0.3348"
+				},
+        {
+					"id": "abandonedhut",
+					"title": "Abandoned Hut",
+					"description": "<p>The remains of a small house, accompanied by an old stone altar, are hidden deep in the woods. Local hunters sometimes use the place for shelter and try not to think too hard about who built it and why it was abandoned.</p><p><em>Session 4: Exploring the Outskirts</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/787459141203525682",
+					"label": "images/wood-cabin.svg",
+          "category": "outpost",
+					"x": "0.4712",
+					"y": "0.2381"
+				},
+        {
+					"id": "templeofelk",
+					"title": "Temple of the Elk",
+					"description": "<p>A huge rock, surrounded by the forest, with the head of immense elk carved out of it. At the foot of the rock lies what was once an impressive shrine dedicated to the god Erastil.</p><p><em>Session 5: Temple of the Elk</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/795311377849778196",
+					"label": "images/ancient-ruins.svg",
+          "category": "outpost",
+					"x": "0.5051",
+					"y": "0.3187"
+				},
+        {
+					"id": "manticoresighting",
+					"title": "Manticore Sighting",
+					"description": "<p>This expanse could be the perfect place for a farm, if not for the remains of the prey hunted by a pair of manticores.</p><p><em>Session 7: Adventuring South</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/810540655080112128",
+					"label": "images/spiked-tail.svg",
+          "category": "lair",
+					"x": "0.6044",
+					"y": "0.2645"
+				},
+        {
+					"id": "ancienttomb",
+					"title": "Ancient Tomb",
+					"description": "<p>The Stolen Lands are rich with traces of long-gone settlements and the ruins of ancient civilizations. Almost every year, an accidental landslide exposes a door to an ancient tomb or the foundation of some destroyed temple. This location is a prime example of this.</p><p><em>Session 7: Adventuring South</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/810540655080112128",
+					"label": "images/crypt-entrance.svg",
+          "category": "dungeon",
+					"x": "0.6262",
+					"y": "0.3469"
+				},
+        {
+					"id": "nettlecrossing",
+					"title": "Nettle's Crossing",
+					"description": "<p>The soggy remnants of a once well-built bridge crossing the Shrike River. The fate of the crossing and its creator, an engineer named Davik Nettle, is one of the dark secrets of the Stolen Lands. One day, the bridge was found destroyed, and Davik has gone missing under mysterious circumstances.</p><p><em>Session 8: Recon</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/821095308821528586",
+					"label": "images/bridge.svg",
+          "category": "landmark",
+					"x": "0.6621",
+					"y": "0.4644"
+				},
+        {
+					"id": "rivercrossing",
+					"title": "River's Crossing",
+					"description": "<p>The Thorn River grows unusually shallow here just before it empties into the Shrike. The resulting ford is never deeper than 3 feet.</p><p><em>Session 8: Recon</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/821095308821528586",
+					"label": "images/bridge.svg",
+          "category": "landmark",
+					"x": "0.5953",
+					"y": "0.5084"
+				},
+        {
+					"id": "ricketybridge",
+					"title": "Rickety Bridge",
+					"description": "<p>The Thorn River winds through a 20-foot-deep gulch here between a pair of hills. An old wooden bridge spans the gulch, allowing passage over the river provided that not many attempt it at once.</p><p><em>Session 8: Recon</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/821095308821528586",
+					"label": "images/bridge.svg",
+          "category": "landmark",
+					"x": "0.5684",
+					"y": "0.4408"
+				},
+        {
+					"id": "pinepatch",
+					"title": "Pine Patch",
+					"description": "<p>An isle of pine forest in the grassy sea of the Shrike Hills. One can only assume that in the past the northern border of the Narlmarches laid further east, and this grove is the last witness of those days. An abandoned lumber camp is all that remains.</p><p><em>Session 9: The Pride of the Old Lion</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/833514878101749811",
+					"label": "images/forest.svg",
+          "category": "landmark",
+					"x": "0.5837",
+					"y": "0.4029"
+				},
+        {
+					"id": "oldsycamore",
+					"title": "Old Sycamore",
+					"description": "<p>A noble patriarch of the tree world, the Old Sycamore can be seen from miles around. No other sycamore in the area as grown as high, and the reason this one in particular reached its enormous size remains a mystery to the locals.</p>",
+					"pin": "pin-square pin-lg pin-label",
+					"label": "images/tree.svg",
+          "category": "dungeon",
+					"x": "0.6235",
+					"y": "0.4399"
+				}
+			]
+		}
+	]
+}
