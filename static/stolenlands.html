@@ -3,7 +3,7 @@
 	<head>
 		<!-- Meta -->
 		<meta charset="utf-8">
-		<title>Stolen Lands - Map</title>
+		<title>Mapplic Fullscreen Map</title>
 
 		<!-- Viewport for Responsivity -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
@@ -11,75 +11,57 @@
 		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-		<meta name="description" content="Vector Switzerland map with clickable states and pins, an example of using Mapplic, a premium custom interactive map plugin to display custom image or vector (SVG) maps.">
+		<meta name="description" content="Mapplic Fullscreen Map">
 
 		<!-- Stylesheets -->
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+		<style type="text/css">
+			body {
+				background-color: #fff;
+				color: #666;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 14px;
+				margin: 0;
+			}
+		</style>
 	</head>
 	<body>
-		<div id="wrap">
-
-			<!-- Site header -->
-			<header id="header">
-					<h1>Stolen Lands of the River Kingdoms</h1>
-					<div class="clear"></div>
-				</div>
-			</header>
-
-			<!-- Site content -->
-			<div id="content">
-
-				<section id="map-section" class="inner over">
-					<div class="editor-window">
-						<div class="editor-body">
-							<code>
-								{<br>
-								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
-								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
-								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
-								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
-								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
-								&nbsp;&nbsp;&nbsp;...<br>
-								}
-							</code>
-						</div>
-					</div>
-
-					<div class="map-container">
-						<div id="mapplic"></div> <!-- Map -->
-					</div>
-			</div>
-
+		<!-- Map -->
+		<div id="mapplic" class="mapplic-fullscreen"></div>
 
 		<!-- Scripts -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript" src="mapplic/mapplic.js"></script>
-		<script type="text/javascript" src="js/magnific-popup.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				$('#mapplic').mapplic({
+				var css = '.mapplic-filtered svg [id^=landmark] > * {opacity: 1 !important; }';
+
+				var mapplic = $('#mapplic').mapplic({
 					source: 'stolenlands.json',
-					defaultstyle: 'defaultstyle',
-					sidebar: false,
-					maxscale: 8,
-					developer: true,
+					height: '100%',
+					customcss: css,
 					sidebar: true,
+					search: true,
+					searchdescription: true,
+					minimap: false,
+					marker: 'hidden',
+					fillcolor: false,
+					fullscreen: false,
+					developer: false,
+					thumbholder: true,
+					maxscale: 8,
+					smartip: true,
+					developer: true,
 					sidebartoggle: true,
 					deeplinking: true,
 					zoomoutclose: true,
-					fullscreen: true,
 					moretext: 'Session',
 					bgcolor: '#333',
 					bgcolor2: '#666',
 					textcolor: '#aaa',
 					headingcolor: '#fff',
-					height: '80%',
-					smartip: 'true',
-					searchdescription: 'true'
 				});
 			});
 		</script>

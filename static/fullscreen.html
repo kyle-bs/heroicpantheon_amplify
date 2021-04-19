@@ -23,11 +23,15 @@
 				font-family: 'Open Sans', sans-serif;
 				font-size: 14px;
 				margin: 0;
-			}			
+			}
 		</style>
 	</head>
 	<body>
-
+		<header id="header">
+				<h1>Stolen Lands of the River Kingdoms</h1>
+				<div class="clear"></div>
+			</div>
+		</header>
 		<!-- Map -->
 		<div id="mapplic" class="mapplic-fullscreen"></div>
 
@@ -40,7 +44,7 @@
 				var css = '.mapplic-filtered svg [id^=landmark] > * {opacity: 1 !important; }';
 
 				var mapplic = $('#mapplic').mapplic({
-					source: 'mall.json',
+					source: 'stolenlands.json',
 					height: '100%',
 					customcss: css,
 					sidebar: true,
@@ -52,7 +56,17 @@
 					fullscreen: false,
 					developer: false,
 					thumbholder: true,
-					maxscale: 3
+					maxscale: 8,
+					smartip: true,
+					developer: true,
+					sidebartoggle: true,
+					deeplinking: true,
+					zoomoutclose: true,
+					moretext: 'Session',
+					bgcolor: '#333',
+					bgcolor2: '#666',
+					textcolor: '#aaa',
+					headingcolor: '#fff',
 				});
 			});
 		</script>
