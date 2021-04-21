@@ -63,7 +63,7 @@
 		{
 			"id":"stolenlands",
 			"title":"Stolen Lands",
-			"map":"maps/stolenlands_test2.svg",
+			"map":"maps/stolenlands.svg",
 			"locations":[
 				{
 					"id": "outskirts",
@@ -213,6 +213,18 @@
           "category": "outpost",
 					"x": "0.5931",
 					"y": "0.1953"
+				},
+				{
+					"id": "restov",
+					"title": "Restov",
+					"description": "<p>Restov is one of the two largest cities in the fertile region of Rostland in southern Brevoy. Lord Mayor Ioseph Sellemius leads the city, which is a trade and cultural center that borders the River Kingdoms, the Shrike River, and the Stolen Lands. As the birthplace of the Aldori dueling style, the city boasts several Aldori and Taldan dueling schools, which has led to the city being a favored place for young nobles to practice dueling championships. Most prominent among them is the Aldori Academy, widely regarded as the region's finest war college.</p><p><em>Session 1: The Call to Action</em></p>",
+					"link": "https://discord.com/channels/409394431293390858/765280005252186142/765314011842871337",
+					"pin": "pin-square pin-lg pin-label",
+					"label": "images/castle.svg",
+					"fill": "transparent",
+					"category": "outpost",
+					"x": "0.9096",
+					"y": "0.2086"
 				},
         {
 					"id": "fangberry",
