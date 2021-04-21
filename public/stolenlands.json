@@ -1,6 +1,28 @@
 {
 	"mapwidth":"640",
 	"mapheight":"420",
+	"styles": [
+		{
+			"class": "default",
+			"base": {
+				"fill": "#495360"
+			}
+		},
+		{
+			"class": "blueish",
+			"base": {
+				"fill": "#0769AD",
+				"fill-opacity": "0.4"
+			},
+			"hover": {
+				"fill-opacity": "0.8"
+			},
+			"active": {
+				"fill": "#054979",
+				"fill-opacity": "1"
+			}
+		}
+	],
   "categories":[
     {
       "id": "outpost",
@@ -29,7 +51,14 @@
       "color": "#4d5e6d",
       "toggle": "true",
       "legend": "true"
-    }
+    },
+		{
+			"id": "region",
+			"title": "Regions",
+			"color": "#000000",
+			"toggle": "true",
+			"legend": "true"
+		}
   ],
 	"levels":[
 		{
@@ -40,8 +69,10 @@
 				{
 					"id": "outskirts",
 					"title": "Outskirts",
+					"category": "region",
 					"description": "<p>Outskirts</p>",
 					"pin": "hidden",
+					"fill": "#000000",
 					"x": "0.6196",
 					"y": "0.2480"
   			},

@@ -3,27 +3,22 @@
 	"mapheight":"420",
 	"styles": [
 		{
-			"class": "default",
-			"base": {
-				"fill": "#495360"
-			}
-		},
-		{
 			"class": "blueish",
 			"base": {
-				"fill": "#0769AD",
-				"fill-opacity": "0.4"
+				"fill": "#000000",
+				"fill-opacity": "0.1"
 			},
 			"hover": {
-				"fill-opacity": "0.8"
+				"fill": "#000000",
+				"fill-opacity": "0.2"
 			},
 			"active": {
-				"fill": "#054979",
-				"fill-opacity": "1"
+				"fill": "#000000",
+				"fill-opacity": "0.3"
 			}
 		}
 	],
-  "categories":[
+  "groups":[
     {
       "id": "outpost",
       "title": "Outposts",
@@ -55,26 +50,25 @@
 		{
 			"id": "region",
 			"title": "Regions",
-			"color": "#000000",
-			"toggle": "true",
-			"legend": "true"
+			"toggle": "false",
+			"legend": "true",
+			"style": "blueish"
 		}
   ],
 	"levels":[
 		{
 			"id":"stolenlands",
 			"title":"Stolen Lands",
-			"map":"maps/stolenlands.svg",
+			"map":"maps/stolenlands_test.svg",
 			"locations":[
 				{
 					"id": "outskirts",
 					"title": "Outskirts",
 					"category": "region",
-					"description": "<p>Outskirts</p>",
+					"description": "<p>A region of the Stolen Lands bordering with Brevoy. It has fewer monsters than the woods or marshes, but is plagued by numerous bandits. For many years, Oleg Leveton's trading post has served as the only bastion of civilization in this inhospitable realm. </p>",
 					"pin": "hidden",
-					"fill": "#000000",
-					"x": "0.6196",
-					"y": "0.2480"
+					"x": "0.5958",
+					"y": "0.2441"
   			},
   			{
   				"id": "partyishere",
