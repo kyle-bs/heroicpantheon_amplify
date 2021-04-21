@@ -10,11 +10,15 @@
 			},
 			"hover": {
 				"fill": "#000000",
-				"fill-opacity": "0.2"
+				"fill-opacity": "0.2",
+				"stroke": "#FFFFFF",
+				"stroke-width": "2"
 			},
 			"active": {
 				"fill": "#000000",
-				"fill-opacity": "0.3"
+				"fill-opacity": "0.3",
+				"stroke": "#FFFFFF",
+				"stroke-width": "2"
 			}
 		}
 	],
@@ -59,7 +63,7 @@
 		{
 			"id":"stolenlands",
 			"title":"Stolen Lands",
-			"map":"maps/stolenlands_test.svg",
+			"map":"maps/stolenlands_test2.svg",
 			"locations":[
 				{
 					"id": "outskirts",
@@ -70,6 +74,123 @@
 					"x": "0.5958",
 					"y": "0.2441"
   			},
+				{
+					"id": "shrike",
+					"title": "Shrike Hills",
+					"category": "region",
+					"description": "<p>The Shrike Hills are named after the Shrike River, winding along them, which, in turn, got its name from the numerous flocks of birds that nest along its length. Deep and affluent, it could have made a great trade route if not for its numerous and deadly rapids. The hills are equally deceptive — green and lush, they shelter countless monsters and bandits.</p>",
+					"pin": "hidden",
+					"x": "0.6153",
+					"y": "0.4692"
+				},
+				{
+					"id": "nnarlmarches",
+					"title": "North Narlmarches",
+					"category": "region",
+					"description": "<p>The northern half of the Narlmarches is the least dangerous part of this inhospitable region. The woods here are not yet as thick as they are to the south, the bogs not as deep, and the monsters not as hungry. Still, it's no place for a casual stroll. Many wayfarers have found their travels ended forever here, not even reaching the harsher areas.</p>",
+					"pin": "hidden",
+					"x": "0.4772",
+					"y": "0.4501"
+				},
+				{
+					"id": "snarlmarches",
+					"title": "South Narlmarches",
+					"category": "region",
+					"description": "<p>South of the Skunk River, the Narlmarches become even more difficult than the north. The thickets are filled with bubbling bog slime, the howling of horrible beasts, and the laughter of fairies planning cruel jokes. But nothing is scarier than the moments when everything goes quiet — in these moments, a deathly silence hangs over the marshes, and eerie, pale fires appear behind the gnarled trees.</p>",
+					"pin": "hidden",
+					"x": "0.4419",
+					"y": "0.7239"
+				},
+				{
+					"id": "dnarlmarches",
+					"title": "Dire Narlmarches",
+					"category": "region",
+					"description": "<p>The Dire Narlmarches are called so for being the boggiest and most dangerous part of the Narlmarches. Every bush in the area is a potential lair to some wild animal, and every branch may well be a venomous snake. In this place, far from the well-trodden paths, many wild monsters have found lairs. One could easily meet an owlbear, a tatzlwyrm, or a hodag here. Few travelers dare to explore the multifold paths of the Dire Narlmarches, and fewer still are lucky enough to return, telling tales of mysterious happenings in their time there. The paths seem to lead travelers in circles, or disappear behind them, or even place branches beneath their feet to trip them up.</p>",
+					"pin": "hidden",
+					"x": "0.3705",
+					"y": "0.5555"
+				},
+				{
+					"id": "pitax",
+					"title": "Pitax",
+					"category": "region",
+					"description": "<p>Long a haven for thieves and smugglers, Pitax is a hub for trade in the River Kingdoms. It aspires to be a center of culture and higher learning as well, but cannot escape its more unsavory origins.</p>",
+					"pin": "hidden",
+					"x": "0.2178",
+					"y": "0.5693"
+				},
+				{
+					"id": "glenebon",
+					"title": "Glenebon",
+					"category": "region",
+					"description": "<p>One of the harsher regions of the Stolen Lands, if not the entire River Kingdoms, the region of Glenebon, also called the Glenebon Uplands, is characterized by rolling black hills, tall gray grass, and tangled scrub. There is little shelter to be found in this unforgiving land. Wildlife includes beetles, snakes, rodents, and ragged wolves, but it is said that prides of manticores have taken to the region, ranging from the Branthlend Mountains, across the hills of Glenebon and into Numeria.</p>",
+					"pin": "hidden",
+					"x": "0.3520",
+					"y": "0.2810"
+				},
+				{
+					"id": "kamelands",
+					"title": "Kamelands",
+					"category": "region",
+					"description": "<p>The Kamelands lie along the eastern edge of the Stolen Lands. Characterized by rolling hills of brown and yellow, the landscape is notable for its many rocky mounds known as kames. The kames together form great, strange patterns, suggesting waymarkers, barrows, and long-destroyed walls and foundations. Very few animals live in the Kamelands — its rare occupants include rodents, snakes, foxes, hares, and wolves. Horses of the region are much valued (and highly expensive) for their strength, speed, and sure-footedness.</p>",
+					"pin": "hidden",
+					"x": "0.6323",
+					"y": "0.7917"
+				},
+				{
+					"id": "varnhold",
+					"title": "Varnhold",
+					"category": "region",
+					"description": "<p>Established by Maegar Varn and his loyal mercenaries, Varnhold is a frontier town made up mostly of single adults with an even distribution of craftspeople and farm laborers. The main buildings in the town are an inn, a church of Erastil, and a local grange where farmers can stockpile and trade their produce. The town is constructed around a ford in the Kiravoy River with a low, flat-topped hill rising above it. Atop the hill stands the hewn-log stockade and blockhouse that was built for the colony's defense.</p>",
+					"pin": "hidden",
+					"x": "0.7970",
+					"y": "0.4473"
+				},
+				{
+					"id": "dunsward",
+					"title": "Dunsward",
+					"category": "region",
+					"description": "<p>The frontier region known as Dunsward, on the easternmost side of the Stolen Lands, borders the steppes of Casmaron. Dunsward is characterized by low, grassy plains circled by mountain ranges and is dotted with the ancient structures of lost civilizations. Long ago, a bustling empire reigned over these lands – nowadays, all that remains of that ancient glory are crumbling ruins and the half-destroyed words of alien wisdom that are inscribed on the walls of unknown tombs.</p>",
+					"pin": "hidden",
+					"x": "0.9269",
+					"y": "0.3273"
+				},
+				{
+					"id": "torsoflevenies",
+					"title": "Tors of Levenies",
+					"category": "region",
+					"description": "<p>Tors of Levenies are a towering mountain range, thrusting skyward as if created by some terrible upheaval. On the western side, the tors feature sharp cliffs and escarpments, while the eastern side shows more gradual, gentle ascents to the summit. Those attempting to ascend from the east, though, will find the way dotted with pits, valleys, ravines, and tarns, making the way quite treacherous. A vast system of caves honeycombs beneath the tors, and adventurers returning from the depths bring cautionary tales of wyverns, enormous blind snakes, and poisonous stones. Odder yet are the tales of enormous carvings and cave art, seeming made by the hands of impossibly sized artists.</p>",
+					"pin": "hidden",
+					"x": "0.9033",
+					"y": "0.6548"
+				},
+				{
+					"id": "silverstep",
+					"title": "Silverstep",
+					"category": "region",
+					"description": "<p>The cleanest and clearest source of water in the Stolen Lands, Lake Silverstep draws from countless pristine streams and rivulets cascading down the steep tors to the east. Dozens of small waterfalls and foamy cascades make the lake's eastern shores places of eldritch beauty, where ancient willows spread mossy canopies over islands of flowering reeds and lilies. More than one eager wanderer, incited by fairy tales of gems and dragon silver, has discovered the caverns hidden behind several of the lake's falls, just at its waterline, and below. Those who return speak of connections with caverns that run deep beneath the Tors of Levenies, of monstrous ossuaries, and of strange eyes that glow in the depths. Most, however, are never seen again.</p>",
+					"pin": "hidden",
+					"x": "0.7660",
+					"y": "0.7100"
+				},
+				{
+					"id": "thousandvoices",
+					"title": "Thousand Voices",
+					"category": "region",
+					"description": "<p>The Thousand Voices is a mysterious and strange place, filled with tall beech, white oak, and hemlock groves. Those who speak of it are quick to mention the tales of unexplained disappearances, ghosts, and winding paths which encircle and confuse those who dare to walk the forest path.</p>",
+					"pin": "hidden",
+					"x": "0.0921",
+					"y": "0.6003"
+				},
+				{
+					"id": "branthlend",
+					"title": "Branthlend Mountains",
+					"category": "region",
+					"description": "<p>The tallest mountain in the Stolen Lands, Mount Branthlend rises from the landscape like a distinctively shaped monk's head. An incredible 5,000 feet tall, the mountain, also known as the Peak of Broken Promises, features a bare, knob-like pinnacle of white stone.</p><p>The mythos of the mountain is dominated by tales of Noarra, the great love of the barbarian lord Targran, who shouted curses from the peak of the mountain after the barbarian warlord took another woman as his queen. In that moment a great storm of fire and stone encompassed the peak of the mountain, and Noarra was said to be transformed into a great black dragon, who then rampaged across the Stolen Lands and River Kingdoms. This myth attracts many travellers from throughout the land, drawn to the peak to cry out their own curses and oaths of vengeance.</p>",
+					"pin": "hidden",
+					"x": "0.1157",
+					"y": "0.3600"
+				},
   			{
   				"id": "partyishere",
   				"title": "Current Location",
