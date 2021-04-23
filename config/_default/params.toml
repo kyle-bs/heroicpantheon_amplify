@@ -1,0 +1,43 @@
+title = "Kyle Sheldon"
+author = "Kyle Sheldon"
+description = """Cloud Security
+IT leadership
+Tabletop Gaming
+Miniature Painting
+"""
+profilePicture = "images/kyle_image.png"
+
+# Enable read more for truncated posts.
+readMore = true
+summarylength = 10
+
+enableEmoji = true
+enableRobotsTXT = true
+
+# Date Format
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/kylebsheldon/"
+
+[[socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/kyle-bs"

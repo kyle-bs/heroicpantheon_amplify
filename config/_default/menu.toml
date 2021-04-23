@@ -1,0 +1,34 @@
+[[main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[main]]
+name = "Cloud"
+weight = 200
+identifier = "cloud"
+url = "/categories/cloud/"
+
+[[main]]
+name = "Leadership"
+weight = 300
+identifier = "leadership"
+url = "/categories/leadership/"
+
+[[main]]
+name = "Tabletop"
+weight = 400
+identifier = "tabletop"
+url = "/categories/tabletop/"
+
+[[main]]
+name = "Minis"
+weight = 500
+identifier = "minis"
+url = "/categories/minis/"
+
+[[main]]
+name = "Stolen Lands - Map"
+weight = 600
+url = "https://www.heroicpantheon.com/stolenlands.html"

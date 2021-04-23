@@ -1,0 +1,9 @@
+# Hugo Config
+baseURL = "https://www.heroicpantheon.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Heroic Pantheon"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
