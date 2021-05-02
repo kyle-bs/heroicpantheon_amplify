@@ -1,0 +1,386 @@
+{
+	"mapwidth":"1896",
+	"mapheight":"1066",
+	"styles": [
+		{
+			"class": "blueish",
+			"base": {
+				"fill": "#000000",
+				"fill-opacity": "0.1"
+			},
+			"hover": {
+				"fill": "#000000",
+				"fill-opacity": "0.2",
+				"stroke": "#FFFFFF",
+				"stroke-width": "2"
+			},
+			"active": {
+				"fill": "#000000",
+				"fill-opacity": "0.3",
+				"stroke": "#FFFFFF",
+				"stroke-width": "2"
+			}
+		}
+	],
+  "groups":[
+		{
+			"id": "planes",
+			"title": "Planes",
+			"toggle": "false",
+			"legend": "true",
+			"style": "blueish"
+		},
+		{
+			"id": "worlds",
+			"title": "Worlds",
+			"toggle": "false",
+			"legend": "true",
+			"style": "blueish"
+		},
+		{
+			"id": "areas",
+			"title": "Areas of Interest",
+			"toggle": "true",
+			"legend": "true"
+		}
+  ],
+	"levels":[
+		{
+			"id":"treasuresource",
+			"title":"Treasure Source",
+			"map":"maps/treasuresource.svg",
+			"locations":[
+				{
+					"id": "materialplane",
+					"title": "Prime Material Plane",
+					"category": "planes",
+					"description": "<p>The Prime Material plane contains the cosmic space that hosts crystal shards which each contain a single world. The plane is surrounded by an Ethereal plane that is shared by all shards. </p>",
+					"pin": "hidden",
+					"x": "0.51",
+					"y": "0.46",
+					"zoom": "1"
+  			},
+				{
+					"id": "astralplane",
+					"title": "Astral Plane",
+					"category": "planes",
+					"description": "<p>The Astral plane connected the Prime Material Planes to the first layers of the 17 Outer planes. The Outer Planes are built on <em><strong>belief</em></strong> and <em><strong>thought</em></strong>, such as order and chaos. It was described as a barren place of other-dimensional nothingness extending in all directions.</p><p><em>It is the space between everything.<br />It is the road that goes everywhere.</br>It is where you are when you aren't anywhere else.</br></em> - Read and documented from an inscription of a statue of a prime named Bigby, within the Lady's Ward of Sigil.</p>",
+					"pin": "hidden",
+					"x": "0.48",
+					"y": "0.048",
+					"zoom": "1"
+				},
+				{
+					"id": "innerplanes",
+					"title": "Inner Planes",
+					"category": "planes",
+					"description": "<p>The Inner Planes contained environments that are among the most hostile in the multiverse. Unlike the Outer Planes, which were built on belief and thought, the Inner Planes were the manifestation of central aspects of physical reality. This includes the purified and raw power of the elements .</p>",
+					"pin": "hidden",
+					"x": "0.3346",
+					"y": "0.2475",
+					"zoom": "1"
+				},
+				{
+					"id": "etherealplane",
+					"title": "Ethereal Plane",
+					"category": "planes",
+					"description": "<p>The Ethereal plane exists adjacent to the Prime Material Plane and connected it to the Inner planes. The Ethereal touched the Prime Material Plane at all points that were located within crystal shards through what is called the <em><strong>Border Ethereal</strong></em>. The non-Border region is called the <em><strong>Deep Ethereal</strong></em>.</p>",
+					"pin": "hidden",
+					"x": "0.4858",
+					"y": "0.7083",
+					"zoom": "1"
+				},
+				{
+					"id": "outlands",
+					"title": "Outlands",
+					"category": "planes",
+					"description": "<p>The Outlands resides in the Astral Plane and is known for it's connections to various other planes. It connects to the sixteen Outer Planes via large portals in sixteen Gate-Towns each located on the inner edge of the plane.  It is infinite, yet it has a definitive center where a large Spire ascends to the sky. At the Spire's tip, the floating torus shaped City of Doors: <em><strong>Sigil</em></strong>.</p><p> While traveling to the Outer Planes is not possible within Sigil, one can travel to the worlds of the Prime Material Plane via portals (or doors).</p><p>The Outlands is truly the planar hub of the multiverse - capable of providing transport to the Outer Planes and the Prime Material. or so I'm told. I can't wait to visit all of them! I wonder if there is a way to the <em>Inner Planes</em>?</p><p><small>Author's Note: While the map shows the Outlands within the Prime Material, it actually sits within the Astral Plane. Think of it as being under the Prime Material! It's why I dotted the line!</small></p>",
+					"pin": "hidden",
+					"x": "0.4646",
+					"y": "0.4196",
+					"zoom": "1"
+				},
+				{
+					"id": "dromaria",
+					"title": "Dromaria",
+					"category": "worlds",
+					 "description": "<p>This is where your faithful cartographer and writer hails from! It is a god forged world shrouded in mystery, where countless battles between the forces of good, evil, order and chaos have been fought infinitum. It is I, Danser Sunrun, who is the first (as far as I know!) to document Dromaria's true place in the larger existence known as the multiverse. Also, if anyone from the <em>Deadly Bones</em> reads this - know that Yenry Duskpeak has what you are owed.</p>",
+					"pin": "hidden",
+					"x": "0.3488",
+					"y": "0.4390",
+					"zoom": "2"
+				},
+				{
+					"id": "khaldeim-gnottvold",
+					"title": "Gnottvold",
+					"description": "<p><em>Where Trolls Slumber</em></p><p><em>Visited, 32 after Awareness</em></p><p>The unspoiled wilds of Gnottvold are marked only by the overgrown ruins of ancient giants and occasional crude wooden shelters built by trolls. Your courageous writer discovered a large slumbering troll nearly a mountain large!</p>",
+					"pin": "pin-square pin-label",
+					"label": "images/troll.svg",
+					"image": "images/torgatroll.jpg",
+					"fill": "transparent",
+					"category": "areas",
+					"x": "0.3702",
+					"y": "0.5271",
+					"reveal": "2"
+				},
+				{
+					"id": "khaldeim",
+					"title": "Khaldeim",
+					"category": "worlds",
+					 "description": "<p><em>Visited, 32 after Awareness</em></p><p>Your ever so honest and faithful author ventured forth to the world of Khaldeim to hunt insectoid creatures called <em>phase spiders</em>. The creatures' remains serve as a main component for automatons whom wish to emulate the spiders.</p>",
+					"pin": "hidden",
+					"x": "0.3873",
+					"y": "0.5010"
+				},
+				{
+					"id": "toril",
+					"title": "Toril",
+					"category": "worlds",
+					 "description": "<p><em>Visited, 1 after Awareness</em></p><p>Your astute champion and traveler of the multiverse found himself stranded in Toril. It is very similar to my homeworld of Dromaria and is a world of danger and adventure. I and my companions found ourselves on a beach of the <em>Sword Coast</em>, a region of the continent of <em>Faerun</em>, which takes it's name from the white cliffs that rose up sharply for hundreds of miles along the eastern coastline. It was from here our multiverse adventures began...",
+					"pin": "hidden",
+					"x": "0.5338",
+					"y": "0.5341",
+					"zoom": "2"
+				},
+				{
+					"id": "pitax",
+					"title": "Pitax",
+					"category": "region",
+					"description": "<p>Long a haven for thieves and smugglers, Pitax is a hub for trade in the River Kingdoms. It aspires to be a center of culture and higher learning as well, but cannot escape its more unsavory origins.</p>",
+					"pin": "hidden",
+					"x": "0.2178",
+					"y": "0.5693"
+				},
+				{
+					"id": "glenebon",
+					"title": "Glenebon",
+					"category": "region",
+					"description": "<p>One of the harsher regions of the Stolen Lands, if not the entire River Kingdoms, the region of Glenebon, also called the Glenebon Uplands, is characterized by rolling black hills, tall gray grass, and tangled scrub. There is little shelter to be found in this unforgiving land. Wildlife includes beetles, snakes, rodents, and ragged wolves, but it is said that prides of manticores have taken to the region, ranging from the Branthlend Mountains, across the hills of Glenebon and into Numeria.</p>",
+					"pin": "hidden",
+					"x": "0.3520",
+					"y": "0.2810"
+				},
+				{
+					"id": "kamelands",
+					"title": "Kamelands",
+					"category": "region",
+					"description": "<p>The Kamelands lie along the eastern edge of the Stolen Lands. Characterized by rolling hills of brown and yellow, the landscape is notable for its many rocky mounds known as kames. The kames together form great, strange patterns, suggesting waymarkers, barrows, and long-destroyed walls and foundations. Very few animals live in the Kamelands — its rare occupants include rodents, snakes, foxes, hares, and wolves. Horses of the region are much valued (and highly expensive) for their strength, speed, and sure-footedness.</p>",
+					"pin": "hidden",
+					"x": "0.6323",
+					"y": "0.7917"
+				},
+				{
+					"id": "varnhold",
+					"title": "Varnhold",
+					"category": "region",
+					"description": "<p>Established by Maegar Varn and his loyal mercenaries, Varnhold is a frontier town made up mostly of single adults with an even distribution of craftspeople and farm laborers. The main buildings in the town are an inn, a church of Erastil, and a local grange where farmers can stockpile and trade their produce. The town is constructed around a ford in the Kiravoy River with a low, flat-topped hill rising above it. Atop the hill stands the hewn-log stockade and blockhouse that was built for the colony's defense.</p>",
+					"pin": "hidden",
+					"x": "0.7970",
+					"y": "0.4473"
+				},
+				{
+					"id": "dunsward",
+					"title": "Dunsward",
+					"category": "region",
+					"description": "<p>The frontier region known as Dunsward, on the easternmost side of the Stolen Lands, borders the steppes of Casmaron. Dunsward is characterized by low, grassy plains circled by mountain ranges and is dotted with the ancient structures of lost civilizations. Long ago, a bustling empire reigned over these lands – nowadays, all that remains of that ancient glory are crumbling ruins and the half-destroyed words of alien wisdom that are inscribed on the walls of unknown tombs.</p>",
+					"pin": "hidden",
+					"x": "0.9269",
+					"y": "0.3273"
+				},
+				{
+					"id": "torsoflevenies",
+					"title": "Tors of Levenies",
+					"category": "region",
+					"description": "<p>Tors of Levenies are a towering mountain range, thrusting skyward as if created by some terrible upheaval. On the western side, the tors feature sharp cliffs and escarpments, while the eastern side shows more gradual, gentle ascents to the summit. Those attempting to ascend from the east, though, will find the way dotted with pits, valleys, ravines, and tarns, making the way quite treacherous. A vast system of caves honeycombs beneath the tors, and adventurers returning from the depths bring cautionary tales of wyverns, enormous blind snakes, and poisonous stones. Odder yet are the tales of enormous carvings and cave art, seeming made by the hands of impossibly sized artists.</p>",
+					"pin": "hidden",
+					"x": "0.9033",
+					"y": "0.6548"
+				},
+				{
+					"id": "silverstep",
+					"title": "Silverstep",
+					"category": "region",
+					"description": "<p>The cleanest and clearest source of water in the Stolen Lands, Lake Silverstep draws from countless pristine streams and rivulets cascading down the steep tors to the east. Dozens of small waterfalls and foamy cascades make the lake's eastern shores places of eldritch beauty, where ancient willows spread mossy canopies over islands of flowering reeds and lilies. More than one eager wanderer, incited by fairy tales of gems and dragon silver, has discovered the caverns hidden behind several of the lake's falls, just at its waterline, and below. Those who return speak of connections with caverns that run deep beneath the Tors of Levenies, of monstrous ossuaries, and of strange eyes that glow in the depths. Most, however, are never seen again.</p>",
+					"pin": "hidden",
+					"x": "0.7660",
+					"y": "0.7100"
+				},
+				{
+					"id": "thousandvoices",
+					"title": "Thousand Voices",
+					"category": "region",
+					"description": "<p>The Thousand Voices is a mysterious and strange place, filled with tall beech, white oak, and hemlock groves. Those who speak of it are quick to mention the tales of unexplained disappearances, ghosts, and winding paths which encircle and confuse those who dare to walk the forest path.</p>",
+					"pin": "hidden",
+					"x": "0.0921",
+					"y": "0.6003"
+				},
+				{
+					"id": "branthlend",
+					"title": "Branthlend Mountains",
+					"category": "region",
+					"description": "<p>The tallest mountain in the Stolen Lands, Mount Branthlend rises from the landscape like a distinctively shaped monk's head. An incredible 5,000 feet tall, the mountain, also known as the Peak of Broken Promises, features a bare, knob-like pinnacle of white stone.</p><p>The mythos of the mountain is dominated by tales of Noarra, the great love of the barbarian lord Targran, who shouted curses from the peak of the mountain after the barbarian warlord took another woman as his queen. In that moment a great storm of fire and stone encompassed the peak of the mountain, and Noarra was said to be transformed into a great black dragon, who then rampaged across the Stolen Lands and River Kingdoms. This myth attracts many travellers from throughout the land, drawn to the peak to cry out their own curses and oaths of vengeance.</p>",
+					"pin": "hidden",
+					"x": "0.1157",
+					"y": "0.3600"
+				},
+  			{
+  				"id": "partyishere",
+  				"title": "Current Location",
+  				"description": "<p>The party is currently located here.",
+  				"pin": "pin-pulse pin-label",
+          "label": "P",
+          "fill": "#007CBA",
+          "category": "landmark",
+          "x": "0.5893",
+  				"y": "0.4014"
+  			},
+				{
+					"id": "olegs",
+					"title": "Oleg's Trading Post",
+					"description": "<p>This abandoned border fort at the southern edge of Rostland has found new life recently. Oleg and Svetlana Leveton, a couple from Restov, rebuilt it into a trading post, which is now one of the few hospitable shelters for travelers passing through the area. Oleg is a gruff and rough trademaster - a counter to Svetlana's more caring approach.</p><p><em>Session 2: Oleg's Trading Post</em></p>",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/772972299002445826",
+					"pin": "pin-square pin-label",
+					"label": "images/stable.svg",
+          "fill": "transparent",
+          "category": "outpost",
+					"x": "0.5931",
+					"y": "0.1953"
+				},
+				{
+					"id": "restov",
+					"title": "Restov",
+					"description": "<p>Restov is one of the two largest cities in the fertile region of Rostland in southern Brevoy. Lord Mayor Ioseph Sellemius leads the city, which is a trade and cultural center that borders the River Kingdoms, the Shrike River, and the Stolen Lands. As the birthplace of the Aldori dueling style, the city boasts several Aldori and Taldan dueling schools, which has led to the city being a favored place for young nobles to practice dueling championships. Most prominent among them is the Aldori Academy, widely regarded as the region's finest war college.</p><p><em>Session 1: The Call to Action</em></p>",
+					"link": "https://discord.com/channels/409394431293390858/765280005252186142/765314011842871337",
+					"pin": "pin-square pin-lg pin-label",
+					"label": "images/castle.svg",
+					"fill": "transparent",
+					"category": "outpost",
+					"x": "0.9096",
+					"y": "0.2086"
+				},
+        {
+					"id": "fangberry",
+					"title": "Fangberry Cave",
+					"description": "<p>The origin of this giant burrow remains a mystery to the locals. It was named for the plant known as fangberry that grows in the area, a pricky bush that requires utmost care to harvest. It is currently home to a colony of monstrous spiders lead by one known as the 'Spider King'.</p><p><em>Session 3: The Plan Forward</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/780083439113863179",
+					"label": "images/spider-alt.svg",
+          "fill": "transparent",
+          "category": "lair",
+					"x": "0.6396",
+					"y": "0.2226"
+				},
+        {
+					"id": "thorn",
+					"title": "Thorn Ford",
+					"description": "<p>This ford in the heart of the woods is one of the best places to cross the Thorn River. Most traders and travelers choose the Thorn Ford for passage - attracting bandits to the place as well.</p><p><em>Session 4: Exploring the Outskirts</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/787457452214845472",
+					"label": "images/camping-tent.svg",
+          "fill": "transparent",
+          "category": "lair",
+					"x": "0.5349",
+					"y": "0.3348"
+				},
+        {
+					"id": "abandonedhut",
+					"title": "Abandoned Hut",
+					"description": "<p>The remains of a small house, accompanied by an old stone altar, are hidden deep in the woods. Local hunters sometimes use the place for shelter and try not to think too hard about who built it and why it was abandoned.</p><p><em>Session 4: Exploring the Outskirts</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/787459141203525682",
+					"label": "images/wood-cabin.svg",
+          "category": "outpost",
+					"x": "0.4712",
+					"y": "0.2381"
+				},
+        {
+					"id": "templeofelk",
+					"title": "Temple of the Elk",
+					"description": "<p>A huge rock, surrounded by the forest, with the head of immense elk carved out of it. At the foot of the rock lies what was once an impressive shrine dedicated to the god Erastil.</p><p><em>Session 5: Temple of the Elk</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/795311377849778196",
+					"label": "images/ancient-ruins.svg",
+          "category": "outpost",
+					"x": "0.5051",
+					"y": "0.3187"
+				},
+        {
+					"id": "manticoresighting",
+					"title": "Manticore Sighting",
+					"description": "<p>This expanse could be the perfect place for a farm, if not for the remains of the prey hunted by a pair of manticores.</p><p><em>Session 7: Adventuring South</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/810540655080112128",
+					"label": "images/spiked-tail.svg",
+          "category": "lair",
+					"x": "0.6044",
+					"y": "0.2645"
+				},
+        {
+					"id": "ancienttomb",
+					"title": "Ancient Tomb",
+					"description": "<p>The Stolen Lands are rich with traces of long-gone settlements and the ruins of ancient civilizations. Almost every year, an accidental landslide exposes a door to an ancient tomb or the foundation of some destroyed temple. This location is a prime example of this.</p><p><em>Session 7: Adventuring South</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/810540655080112128",
+					"label": "images/crypt-entrance.svg",
+          "category": "dungeon",
+					"x": "0.6262",
+					"y": "0.3469"
+				},
+        {
+					"id": "nettlecrossing",
+					"title": "Nettle's Crossing",
+					"description": "<p>The soggy remnants of a once well-built bridge crossing the Shrike River. The fate of the crossing and its creator, an engineer named Davik Nettle, is one of the dark secrets of the Stolen Lands. One day, the bridge was found destroyed, and Davik has gone missing under mysterious circumstances.</p><p><em>Session 8: Recon</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/821095308821528586",
+					"label": "images/bridge.svg",
+          "category": "landmark",
+					"x": "0.6621",
+					"y": "0.4644"
+				},
+        {
+					"id": "rivercrossing",
+					"title": "River's Crossing",
+					"description": "<p>The Thorn River grows unusually shallow here just before it empties into the Shrike. The resulting ford is never deeper than 3 feet.</p><p><em>Session 8: Recon</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/821095308821528586",
+					"label": "images/bridge.svg",
+          "category": "landmark",
+					"x": "0.5953",
+					"y": "0.5084"
+				},
+        {
+					"id": "ricketybridge",
+					"title": "Rickety Bridge",
+					"description": "<p>The Thorn River winds through a 20-foot-deep gulch here between a pair of hills. An old wooden bridge spans the gulch, allowing passage over the river provided that not many attempt it at once.</p><p><em>Session 8: Recon</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/821095308821528586",
+					"label": "images/bridge.svg",
+          "category": "landmark",
+					"x": "0.5684",
+					"y": "0.4408"
+				},
+        {
+					"id": "pinepatch",
+					"title": "Pine Patch",
+					"description": "<p>An isle of pine forest in the grassy sea of the Shrike Hills. One can only assume that in the past the northern border of the Narlmarches laid further east, and this grove is the last witness of those days. An abandoned lumber camp is all that remains.</p><p><em>Session 9: The Pride of the Old Lion</em></p>",
+					"pin": "pin-square pin-label",
+          "link": "https://discord.com/channels/409394431293390858/765280005252186142/833514878101749811",
+					"label": "images/forest.svg",
+          "category": "landmark",
+					"x": "0.5837",
+					"y": "0.4029"
+				},
+        {
+					"id": "oldsycamore",
+					"title": "Old Sycamore",
+					"description": "<p>A noble patriarch of the tree world, the Old Sycamore can be seen from miles around. No other sycamore in the area as grown as high, and the reason this one in particular reached its enormous size remains a mystery to the locals.</p>",
+					"pin": "pin-square pin-lg pin-label",
+					"label": "images/tree.svg",
+          "category": "dungeon",
+					"x": "0.6235",
+					"y": "0.4399"
+				}
+			]
+		}
+	]
+}
