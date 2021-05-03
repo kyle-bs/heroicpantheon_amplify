@@ -27,14 +27,14 @@
 			"id": "planes",
 			"title": "Planes",
 			"toggle": "false",
-			"legend": "true",
+			"legend": "false",
 			"style": "blueish"
 		},
 		{
 			"id": "worlds",
 			"title": "Worlds",
 			"toggle": "false",
-			"legend": "true",
+			"legend": "false",
 			"style": "blueish"
 		},
 		{
@@ -61,13 +61,25 @@
 					"zoom": "1"
   			},
 				{
+					"id": "astralplane-ashiok",
+					"title": "Ashiok's Tower",
+					"description": "<p><em>Astral Plane</em></p><p><em>Visited, 1 after Awareness</em></p><p>Is it a ship? Is it a world? Is it an actual tower? I don't know! Your truly found himself transported to this location after courageously spelunking a crypt in Dromaria. It was here I met travelers like myself, who themselves came from other worlds. It was like an old vault - and it is here I found the <em>Mystic Compass</em>, an item I suspect will be needed to navigate the Treasure Source!</p>",
+					"pin": "pin-square pin-label",
+					"label": "images/scout-ship.svg",
+					"fill": "transparent",
+					"category": "areas",
+					"x": "0.2343",
+					"y": "0.6733",
+					"zoom": "1"
+				},
+				{
 					"id": "astralplane",
-					"title": "Astral Plane",
+					"title": "Outer Planes",
 					"category": "planes",
 					"description": "<p>The Astral plane connected the Prime Material Planes to the first layers of the 17 Outer planes. The Outer Planes are built on <em><strong>belief</em></strong> and <em><strong>thought</em></strong>, such as order and chaos. It was described as a barren place of other-dimensional nothingness extending in all directions.</p><p><em>It is the space between everything.<br />It is the road that goes everywhere.</br>It is where you are when you aren't anywhere else.</br></em> - Read and documented from an inscription of a statue of a prime named Bigby, within the Lady's Ward of Sigil.</p>",
 					"pin": "hidden",
-					"x": "0.48",
-					"y": "0.048",
+					"x": "0.2231",
+					"y": "0.3590",
 					"zoom": "1"
 				},
 				{
@@ -91,6 +103,19 @@
 					"zoom": "1"
 				},
 				{
+					"id": "outlands-sigil",
+					"title": "Sigil",
+					"description": "<p><em>The City of Doors, The Cage</em></p><p><em>Visited 2 after Awareness</em></p><p>Sigil is a floating city in the center of the Outlands and, according to many of the articles read by yours truly, the center of the multiverse. Sigil is a major hub for interplanar and interworld travel - it's called the City of Doors because of its <em>portals</em>, which can spawn anywhere within the city and lead you to another section of the city or to another plane or world entirely!</p><p>It's other label, the Cage, is well earned. Travel from the Outlands into and out of the city is strictly forbidden and all but impossible. One does not simply walk to Sigil - to access you must find a key and take a door to get in. Sigil's existence to those of us who come from the shards of other worlds is hidden, a result of universal magic that prevents observation of the city via spell, magic item or other natural abilities.</p><p>The city is built within the inside of a torus shape, the horizon is literally the top view of the rest of the city! It is broken down into various districts and is run by a deity-like creature called the Lady of Pain. Yours truly has been warned about crossing paths with the Lady, but rest assured dear reader that it is on my to do list to have a conversation with her!</p>",
+					"pin": "pin-square pin-lg pin-label",
+					"label": "images/doorway.svg",
+					"image": "images/sigil.jpg",
+					"fill": "transparent",
+					"category": "areas",
+					"x": "0.4658",
+					"y": "0.4508",
+					"zoom": "1"
+				},
+				{
 					"id": "outlands",
 					"title": "Outlands",
 					"category": "planes",
@@ -108,12 +133,12 @@
 					"pin": "hidden",
 					"x": "0.3488",
 					"y": "0.4390",
-					"zoom": "2"
+					"zoom": "1"
 				},
 				{
 					"id": "khaldeim-gnottvold",
 					"title": "Gnottvold",
-					"description": "<p><em>Where Trolls Slumber</em></p><p><em>Visited, 32 after Awareness</em></p><p>The unspoiled wilds of Gnottvold are marked only by the overgrown ruins of ancient giants and occasional crude wooden shelters built by trolls. Your courageous writer discovered a large slumbering troll nearly a mountain large!</p>",
+					"description": "<p><em>Where Trolls Slumber</em></p><p><em>Prime Material, Khaldeim</em></p><p><em>Visited, 32 after Awareness</em></p><p>The unspoiled wilds of Gnottvold are marked only by the overgrown ruins of ancient giants and occasional crude wooden shelters built by trolls. Your courageous writer discovered a large slumbering troll nearly a mountain large!</p>",
 					"pin": "pin-square pin-label",
 					"label": "images/troll.svg",
 					"image": "images/torgatroll.jpg",
@@ -121,7 +146,7 @@
 					"category": "areas",
 					"x": "0.3702",
 					"y": "0.5271",
-					"reveal": "2"
+					"zoom": "1"
 				},
 				{
 					"id": "khaldeim",
@@ -130,7 +155,21 @@
 					 "description": "<p><em>Visited, 32 after Awareness</em></p><p>Your ever so honest and faithful author ventured forth to the world of Khaldeim to hunt insectoid creatures called <em>phase spiders</em>. The creatures' remains serve as a main component for automatons whom wish to emulate the spiders.</p>",
 					"pin": "hidden",
 					"x": "0.3873",
-					"y": "0.5010"
+					"y": "0.5010",
+					"zoom": "1"
+				},
+				{
+					"id": "toril-sammunedar",
+					"title": "Sammunedar",
+					"description": "<p><em>Home of my Shield-Brothers</em></p><p><em>Prime Material, Toril</em></p><p><em>Visited, 2 after Awareness</em></p><p>I have studied the manuscripts I received from an old barkeep near the ancient city of Sammunedar. What I can deduce is that it was a prominent city-state of power as little as 30 years ago. It was formed from the refugees of a great war against the factions of elemental evil. Heroes emerged who rallied the common folk together against the threat from the Inner Planes. What is not known is how it fell. Sitting on top of the elemental nexus of a world would be like sitting on top of the cauldron when you make popcorn, so I can only imagine what could have happened!</p><p>The treasures you may find here include pieces of <em>elemental power</em>, but it will require supreme courage to venture into the city's depths. It's underground, you see - and what's left of the city and it's inhabitants is unknown! Perhaps you can find the final resting place of it's founder, or what remains of the touch of the Inner Planes and the Abyss! My dear readers, if you are looking for the adventure of a life time, Sammunedar on Toril is definitely a dig site worthy of investigation!</p><p>Your courageous writer ventured deep to the ruins through lava tubes, where rogue fire elementals and a horde of kobolds fought over pieces of the abandoned city!</p>",
+					"pin": "pin-square pin-label",
+					"label": "images/ancient-ruins-yellow.svg",
+					"image": "images/sammunedar.png",
+					"fill": "transparent",
+					"category": "areas",
+					"x": "0.5368",
+					"y": "0.5698",
+					"zoom": "1"
 				},
 				{
 					"id": "toril",
@@ -140,7 +179,8 @@
 					"pin": "hidden",
 					"x": "0.5338",
 					"y": "0.5341",
-					"zoom": "2"
+					"zoom": "2",
+					"zoom": "1"
 				}
 			]
 		}

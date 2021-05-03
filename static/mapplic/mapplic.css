@@ -1827,7 +1827,7 @@ g.mapplic-active > * {
 /* CUSTOM STYLES */
 .mapplic-image,
 .mapplic-tooltip-wrap { max-width: 600px !important; } /* tooltip width */
-.mapplic-tooltip-content { max-height: 160px; } /* tooltip height */
+.mapplic-tooltip-content { max-height: 460px; } /* tooltip height */
 
 .mapplic-image {
 	height: 160px !important;
