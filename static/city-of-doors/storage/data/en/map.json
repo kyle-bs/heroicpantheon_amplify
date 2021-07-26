@@ -65,35 +65,24 @@
             "minimap": "storage/images/en/minimap.jpg",
             "locations": [
                 {
-                    "id": "U1",
-                    "pin": "circular fontawesome fas fa-bolt",
-                    "fill": "#333333",
-                    "x": "0.9140",
-                    "y": "0.4675",
-                    "category": "under",
-                    "title": "U1: Temple of Darkness",
-                    "about": "Faction War [Adventure], p. 78",
-                    "description": "<p class='special'><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Faction War [Adventure], p. 78.</p><p>NPC: Incarus, Vanuire, Ghargaross.</p><p>No powers are revered there, far below the Hive Ward: the name simply conveys its aura of&nbsp;fear and evil. A yagnoloth named Incarus serves as the “high priest” of&nbsp;the&nbsp;Temple. His servants include two nycaloth lieutenants (Vaniure and Ghargaross) and a large force of mezzoloth, piscoloth and canoloth underlings.</p><p>The Nightmare Shaft at the center of the temple allows the yugoloth to seep into the dreams of others.</p>"
-                },
-                {
-                    "id": "L6",
+                    "id": "L1",
                     "pin": "circular fontawesome fas fa-fire",
                     "fill": "#544173",
                     "x": "0.5312",
                     "y": "0.5718",
                     "category": "lower",
-                    "title": "L6: Ubiquitous Wayfarer Inn",
+                    "title": "L1: Ubiquitous Wayfarer Inn",
                     "about": "In the Cage: A Guide to Sigil, p. 57<br/>Dead Gods [Adventure], p. 137<br/><span class='label'>Pre Faction War</span>",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p><ul class='labels'><li>Pre Faction War</li></ul>"
+                    "description": "<br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes.</p>"
                 },
                 {
-                    "id": "L10",
+                    "id": "L2",
                     "pin": "circular fontawesome fas fa-fire",
                     "fill": "#544173",
                     "x": "0.5467",
                     "y": "0.4709",
                     "category": "lower",
-                    "title": "L10: Black Sail Tavern & Inn",
+                    "title": "L2: Black Sail Tavern & Inn",
                     "about": "The Eternal Boundary [Adventure], p. 16<br/>In the Cage: A Guide to Sigil, p. 48<br/>Dungeon Magazine #55, pp. 18-47",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Eternal Boundary [Adventure], p. 16.<br/>In the Cage: A Guide to Sigil, p. 48.<br/>Dungeon Magazine #55, pp. 18-47.</p><p>NPC: Zaren, Salja, Horrn, Inimigle, Turia.</p><p>A quiet tavern frequented by craftsmen who work near the Armory and the border to The Lady’s Ward. Built from the remnants of an ancient galleon, though none know how it ended up in Sigil.</p>"
                 },
@@ -109,26 +98,38 @@
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 96.</p><p>A grand plaza that is home to a sprawling, vibrant market that never closes, the Bazaar is also the home turf of the Free League. The Indeps and the rules of commerce make sure that the deals are fair and honest — well, mostly. Caveat emptor.</p>"
                 },
                 {
-                    "id": "M21",
+                    "id": "M1",
                     "pin": "circular fontawesome fas fa-shopping-basket",
                     "fill": "#db9537",
                     "x": "0.2120",
                     "y": "0.7390",
                     "category": "market",
-                    "title": "M21: Tivvum’s Antiquities",
+                    "title": "M1: Tivvum’s Antiquities",
+                    "image": "storage/images/m1.png",
                     "about": "Uncaged: Faces of Sigil, p. 86<br/>Faction War [Adventure], p. 106<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57<br/>Dragon Magazine #414, p. 2",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Uncaged: Faces of Sigil, p. 86.<br/>Faction War [Adventure], p. 106.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.<br/>Dragon Magazine #414, p. 2.</p><p>NPC: Alluvius Ruskin.</p><p>This store is in a tower with green marble walls. It is known as good place to buy portal keys and is run by Alluvius Ruskin, a tiefling, old and frail.</p>"
+                    "description": "<p>Uncaged: Faces of Sigil, p. 86.<br/>Faction War [Adventure], p. 106.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.<br/>Dragon Magazine #414, p. 2.</p><p>NPC: Alluvius 'Lu' Ruskin (female old-haglike tiefling, tonberry-like)</p><p>This store is in a tower with green marble walls. It is known as good place to buy portal keys and is run by Alluvius 'Lu' Ruskin, a tiefling, old and frail.</p><p><strong>Visited</strong><br/><ul><li><em>Gruul Intentions, Session 2.</em> The Stranygers purchase a Rakdos Keyrune and were gifted a Planar Gem (Obsidian)</li></ul>"
                 },
                 {
-                    "id": "M22",
+                    "id": "M2",
                     "pin": "circular fontawesome fas fa-info",
                     "fill": "#db9537",
                     "x": "0.2095",
                     "y": "0.7170",
                     "category": "market",
-                    "title": "M22: Debtor’s Pole",
+                    "title": "M2: Debtor’s Pole",
                     "about": "In the Cage: A Guide to Sigil, p. 96",
-                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 96.</p>"
+                    "description": "<p>In the Cage: A Guide to Sigil, p. 96</p><p>A basher in need of jink might check the Debtor's Pole. Merchants from all over Sigil use the pole to post the names of sods who haven't paid their bills. Some names have rewards attached. A basher who returns a wanted sod to the creditor named on the pole pockets the reward. </p><p><strong>Visited</strong><br/><ul><li><em>Gruul Intentions, Session 2.</em> The Stranygers investigated the Debtor's Pole.</li></ul>"
+                },
+                {
+                    "id": "M3",
+                    "pin": "circular fontawesome fas fa-shopping-basket",
+                    "fill": "#db9537",
+                    "x": "0.1795",
+                    "y": "0.7100",
+                    "category": "market",
+                    "title": "M3: Sophie's Softies",
+                    "about": "Pillows of the highest quality, stuffed with feathers of magic beasts, and enchanted with various effects.",
+                    "description": "<p>NPC: Sophie (female half-elf, always yawning)</p><p>Catering to the highest of clientelle, customers of Sophie's leave a bit drowsy but otherwise highly satisfied.</p><p><strong>Visited</strong><br/><ul><li><em>Gruul Intentions, Session 2.</em> The Stranygers purchased Sophie's Softie: Drifting Through the Clouds</li></ul>"
                 }
             ]
         }
