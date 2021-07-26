@@ -26,6 +26,8 @@
         <div class='panel-container'>
             <div class='panel-content'>
 
+<p class='lead'>This map is a fork of the existin, containing locations visited by the Strayngers Adventuring Party. For the original version of this document, refer to the upstream project: <a href='http://nether-whisper.ru/rp/planescape/map-of-sigil/'>The Map of Sigil, City of Doors</a>. Credits for the original can be found at the end of this document. - Kyle </p>
+
 <p class='lead'>This map descends from two well-known planewalker.com downloads: hi-res PDF <a href='http://mimir.planewalker.com/sites/default/files/Sigil_Map2.pdf'>map&nbsp;of&nbsp;Sigil</a> and&nbsp;<a href='http://mimir.planewalker.com/sites/default/files/Sigil%20Venues2.xls'>Sigil Venues spreadsheet</a>, a&nbsp;compilation of&nbsp;all named venues culled from official Planescape material.</p>
 
 <p class='lead'>It lists basic information about each location, wherever available, and&nbsp;is&nbsp;primarily intended to&nbsp;serve as a&nbsp;reference index rather than a&nbsp;substitute for&nbsp;the&nbsp;various products in&nbsp;which these venues appear.</p>
@@ -35,6 +37,7 @@
 <p>Venues by type, listed in order from the most common to the least common:</p>
 
 <ul class='legend'>
+    <li><span class='fas fa-dungeon'></span>doors, portals</li>
     <li><span class='fas fa-beer'></span>taverns, bars, pubs</li>
     <li><span class='fas fa-bolt'></span>temples</li>
     <li><span class='fas fa-shopping-basket'></span>shops</li>
@@ -195,7 +198,7 @@ Upstream project: <a href='http://nether-whisper.ru/rp/planescape/map-of-sigil/'
             var $map = $('#map').mapplic({
                 source: 'storage/data/en/map.json',
                 height: 'auto',
-                fullscreen: true,
+                fullscreen: false,
                 lightbox: true,
                 mapfill: true,
                 developer: true,
