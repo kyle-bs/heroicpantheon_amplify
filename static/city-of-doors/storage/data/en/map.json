@@ -96,6 +96,39 @@
                     "title": "L10: Black Sail Tavern & Inn",
                     "about": "The Eternal Boundary [Adventure], p. 16<br/>In the Cage: A Guide to Sigil, p. 48<br/>Dungeon Magazine #55, pp. 18-47",
                     "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>The Eternal Boundary [Adventure], p. 16.<br/>In the Cage: A Guide to Sigil, p. 48.<br/>Dungeon Magazine #55, pp. 18-47.</p><p>NPC: Zaren, Salja, Horrn, Inimigle, Turia.</p><p>A quiet tavern frequented by craftsmen who work near the Armory and the border to The Lady’s Ward. Built from the remnants of an ancient galleon, though none know how it ended up in Sigil.</p>"
+                },
+                {
+                    "id": "M0",
+                    "pin": "circular large fontawesome fas fa-flag",
+                    "fill": "#db9537",
+                    "x": "0.1625",
+                    "y": "0.7560",
+                    "category": "market",
+                    "title": "M0: The Great Bazaar",
+                    "about": "In the Cage: A Guide to Sigil, p. 96",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 96.</p><p>A grand plaza that is home to a sprawling, vibrant market that never closes, the Bazaar is also the home turf of the Free League. The Indeps and the rules of commerce make sure that the deals are fair and honest — well, mostly. Caveat emptor.</p>"
+                },
+                {
+                    "id": "M21",
+                    "pin": "circular fontawesome fas fa-shopping-basket",
+                    "fill": "#db9537",
+                    "x": "0.2120",
+                    "y": "0.7390",
+                    "category": "market",
+                    "title": "M21: Tivvum’s Antiquities",
+                    "about": "Uncaged: Faces of Sigil, p. 86<br/>Faction War [Adventure], p. 106<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57<br/>Dragon Magazine #414, p. 2",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='fas fa-star'></span><br/>Uncaged: Faces of Sigil, p. 86.<br/>Faction War [Adventure], p. 106.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.<br/>Dragon Magazine #414, p. 2.</p><p>NPC: Alluvius Ruskin.</p><p>This store is in a tower with green marble walls. It is known as good place to buy portal keys and is run by Alluvius Ruskin, a tiefling, old and frail.</p>"
+                },
+                {
+                    "id": "M22",
+                    "pin": "circular fontawesome fas fa-info",
+                    "fill": "#db9537",
+                    "x": "0.2095",
+                    "y": "0.7170",
+                    "category": "market",
+                    "title": "M22: Debtor’s Pole",
+                    "about": "In the Cage: A Guide to Sigil, p. 96",
+                    "description": "<p><span class='fas fa-star'></span><span class='fas fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><span class='far fa-star'></span><br/>In the Cage: A Guide to Sigil, p. 96.</p>"
                 }
             ]
         }
