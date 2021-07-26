@@ -9,7 +9,7 @@
         <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
 
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i'>
-        <link rel='stylesheet' href='css/sigil.style.min.css'>
+        <link rel='stylesheet' href='city-of-doors/css/style.min.css'>
     </head>
     <body>
         <div class='header'>
@@ -184,7 +184,7 @@ Upstream project: <a href='http://nether-whisper.ru/rp/planescape/map-of-sigil/'
         </div>
     </div>
 
-    <script src='js/plugins.min.js'></script>
+    <script src='city-of-doors/js/plugins.min.js'></script>
     <script>
         $(document).ready(function() {
             $('#menu .fa-question-circle').on('click', function(event) {
@@ -193,7 +193,7 @@ Upstream project: <a href='http://nether-whisper.ru/rp/planescape/map-of-sigil/'
             });
 
             var $map = $('#map').mapplic({
-                source: 'sigil.json',
+                source: 'city-of-doors/data/en/map.json',
                 height: 'auto',
                 fullscreen: true,
                 lightbox: true,
