@@ -61,8 +61,8 @@
         {
             "id": "sigil",
             "title": "Sigil",
-            "map": "city-of-doors/storage/images/en/map.jpg",
-            "minimap": "city-of-doors/storage/images/en/minimap.jpg",
+            "map": "storage/images/en/map.jpg",
+            "minimap": "storage/images/en/minimap.jpg",
             "locations": [
                 {
                     "id": "U1",
