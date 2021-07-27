@@ -207,6 +207,39 @@
                     "title": "Factologium Museum",
                     "about": "Museum dedicated to Sigil's factols, present and former.",
                     "description": "<p>Faction War [Adventure], p. 127.<br/>Uncaged: Faces of Sigil, p. 124.</p><p>NPC: O’pok (sphinx, not amused).</p><p>A library and propaganda museum dedicated to Sigil's factols (leaders of Sigil factions). It has recently begun expanding into general artifact collection."
+                },
+                {
+                    "id": "FriendlyFiend",
+                    "pin": "circular fontawesome fas fa-shopping-basket",
+                    "fill": "#544173",
+                    "x": "0.4320",
+                    "y": "0.5322",
+                    "category": "lower",
+                    "title": "Friendly Fiend Magic Shop",
+                    "about": "One-stop shop for scrolls, potions, wands and other magical doodads.",
+                    "description": "<p>Uncaged: Faces of Sigil, p. 8.</p><p>NPC: A’kin, Balaka.</p><p>Magical trinkets and curio shop run by the mysterious but disarmingly polite yugoloth A’kin.</p>"
+                },
+                {
+                    "id": "Ditch",
+                    "pin": "circular fontawesome fas fa-star",
+                    "fill": "#544173",
+                    "x": "0.7795",
+                    "y": "0.4565",
+                    "category": "lower",
+                    "title": "The Ditch",
+                    "about": "Sigil's only “natural” body of water, a refuse pit of waste (both humanoid and other) and rain water.",
+                    "description": "<p>In the Cage: A Guide to Sigil, p. 49.</p><p>A stinking mire of a canal that marks the border between the Lower Ward and the Hive Ward, favored dumping ground for deaders where even the Dustmen or corpse-pickers are reluctant to go trawling.</p>"
+                },
+                {
+                    "id": "IllDefinedPortal",
+                    "pin": "circular fontawesome fas fa-dungeon",
+                    "fill": "#d95353",
+                    "x": "0.7720",
+                    "y": "0.5480",
+                    "category": "hive",
+                    "title": "Ill Defined Portal",
+                    "about": "The doorway which deposited the adventurers in Sigil.",
+                    "description": "<p>A one-way? portal from Faerun to Sigil which required ringing a tuning fork on a hearth anvil of a dwarven clan.</p>"
                 }
             ]
         }
