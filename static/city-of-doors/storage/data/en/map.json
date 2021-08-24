@@ -209,6 +209,17 @@
                     "description": "<p>Faction War [Adventure], p. 127.<br/>Uncaged: Faces of Sigil, p. 124.</p><p>NPC: O’pok (sphinx, not amused).</p><p>A library and propaganda museum dedicated to Sigil's factols (leaders of Sigil factions). It has recently begun expanding into general artifact collection."
                 },
                 {
+                    "id": "NicEponaStatue",
+                    "pin": "circular fontawesome fas fa-monument",
+                    "fill": "#95ac5f",
+                    "x": "0.4045",
+                    "y": "0.6785",
+                    "category": "clerk",
+                    "title": "Trioptic Nic’Epona Statue",
+                    "about": "A gigantic rearing Nic'Epona statue known to have portals to many worlds.",
+                    "description": "<p>In the Cage: A Guide to Sigil, p. 79.</p><p>A gargantuan statue of a three-eyed nic’Epona (a magical sort of horse). The base of the statue holds three portals to the Prime, Elysium, and Celestia. It is guarded by a hired band of Doomguard.</p>"
+                },
+                {
                     "id": "FriendlyFiend",
                     "pin": "circular fontawesome fas fa-shopping-basket",
                     "fill": "#544173",
@@ -240,6 +251,17 @@
                     "title": "Ill Defined Portal",
                     "about": "The doorway which deposited the adventurers in Sigil.",
                     "description": "<p>A one-way? portal from Faerun to Sigil which required ringing a tuning fork on a hearth anvil of a dwarven clan.</p>"
+                },
+                {
+                    "id": "RavnicaEmbassy",
+                    "pin": "circular fontawesome fas fa-flag",
+                    "fill": "#4089a6",
+                    "x": "0.3397",
+                    "y": "0.8055",
+                    "category": "guildhall",
+                    "title": "Ravnica Embassy",
+                    "about": "Headquarters for Ravnican representatives who serve in Sigil.",
+                    "description": "<img src='storage/images/ravnica.png'><p>The embassy serves as one of the only portals to the plane of Ravnica. The majority of Ravnican guilds have representation, except for the Gruul Clans and the Cult of Rakdos. Potential visitors to Ravnica must sell their need to the Azorious Senata ambassador - only those with the truest of intentions are allowed access to the City of Guilds.</p>"
                 }
             ]
         }

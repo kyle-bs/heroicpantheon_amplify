@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>The Map of Sigil, City of Doors</title>
+        <meta name='description' content='Reference index of 308 Sigil venues culled from official Planescape material.'>
+
+        <meta name='robots' content='noindex, nofollow'>
+        <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no'>
+
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i'>
+        <link rel='stylesheet' href='storage/css/style.min.css'>
+    </head>
+    <body>
+        <div class='header'>
+            <div class='logo fas fa-map'></div>
+            <div class='title'>Sigil: The City of Doors</div>
+            <div id='menu'>
+                <div class='button far fa-question-circle'></div>
+            </div>
+        </div>
+
+    <div id='map'></div>
+
+    <div class='panel from-right'>
+        <div class='panel-container'>
+            <div class='panel-content'>
+
+<p class='lead'>
+<h2>Credits (This Fork)</h2>
+<p>Scripter: Kyle "IndistnctChattr" Sheldon</p>
+
+<h2>Credits (Original Source)</h2>
+<p>Montage: Denis “Ambrus” Richard.<br>
+Original cartography: Rob Lazzaretti.<br>
+Additional artwork: Tony DiTerlizzi&nbsp;&amp; David&nbsp;S. “Diesel” LaForce.<br>
+Poetry: <a href='http://rpo.library.utoronto.ca/poems/dolores-notre-dame-des-sept-douleurs'>Dolores</a> by Algernon Charles Swinburne.</p>
+<p>Map engine: <a href='https://codecanyon.net/item/mapplic-custom-interactive-map-jquery-plugin/6275001'>Mapplic</a> by&nbsp;sekler.<br>
+Upstream project: <a href='http://nether-whisper.ru/rp/planescape/map-of-sigil/'>The Map of Sigil, City of Doors</a>.</p>
+
+<p class='lead'>This map descends from two well-known planewalker.com downloads: hi-res PDF <a href='http://mimir.planewalker.com/sites/default/files/Sigil_Map2.pdf'>map&nbsp;of&nbsp;Sigil</a> and&nbsp;<a href='http://mimir.planewalker.com/sites/default/files/Sigil%20Venues2.xls'>Sigil Venues spreadsheet</a>, a&nbsp;compilation of&nbsp;all named venues culled from official Planescape material.</p>
+
+<p class='lead'>It lists basic information about each location, wherever available, and&nbsp;is&nbsp;primarily intended to&nbsp;serve as a&nbsp;reference index rather than a&nbsp;substitute for&nbsp;the&nbsp;various products in&nbsp;which these venues appear.</p>
+
+<h2>Legend</h2>
+
+<p>Venues by type, listed in order from the most common to the least common:</p>
+
+<ul class='legend'>
+    <li><span class='fas fa-dungeon'></span>doors, portals</li>
+    <li><span class='fas fa-beer'></span>taverns, bars, pubs</li>
+    <li><span class='fas fa-bolt'></span>temples</li>
+    <li><span class='fas fa-shopping-basket'></span>shops</li>
+    <li><span class='fas fa-fire'></span>inns, boarding houses, pansions</li>
+    <li><span class='fas fa-star'></span>fountains, squares, landmarks</li>
+    <li><span class='fas fa-home'></span>houses, mansions, communes</li>
+    <li><span class='fas fa-flag'></span>faction headquarters</li>
+    <li><span class='fas fa-briefcase'></span>offices</li>
+    <li><span class='fas fa-flask'></span>workshops, forges, apothecaries</li>
+    <li><span class='fas fa-chess-rook'></span>towers, garrisons</li>
+    <li><span class='fas fa-trophy'></span>guildhalls</li>
+    <li><span class='fas fa-balance-scale'></span>marketplaces, auctions</li>
+    <li><span class='fas fa-theater-masks'></span>festhalls, arenae, galleries</li>
+    <li><span class='fas fa-utensils'></span>restaurants</li>
+    <li><span class='fas fa-monument'></span>monuments, statues</li>
+    <li><span class='fas fa-university'></span>museums, libraries</li>
+    <li><span class='fas fa-warehouse'></span>warehouses</li>
+    <li><span class='fas fa-book-open'></span>bookshops, scriptoriums</li>
+    <li><span class='fas fa-leaf'></span>gardens, parks, greenhouses</li>
+    <li><span class='fas fa-birthday-cake'></span>bakeries</li>
+    <li><span class='fas fa-heartbeat'></span>infirmaries</li>
+    <li><span class='fas fa-info'></span>information services</li>
+    <li><span class='fas fa-paw'></span>pet shops, stables</li>
+    <li><span class='fas fa-spa'></span>bathhouses</li>
+</ul>
+
+<!--<p>Venues with unique icons:</p>
+
+<ul class='legend'>
+    <li><span class='fas fa-coffee'></span>Café Leonan</li>
+    <li><span class='fas fa-paint-brush'></span>Fell’s Tattoo Parlour</li>
+    <li><span class='fas fa-bug'></span>Office of Vermin and Disease Control</li>
+    <li><span class='fas fa-lock'></span>Palace of the Jester</li>
+    <li><span class='fas fa-sync-alt'></span>Rechvad’s Persona Lavisicum</li>
+    <li><span class='fas fa-magic'></span>Society of the Luminiferous Aether</li>
+    <li><span class='fas fa-cog'></span>Stone & Cog Construction</li>
+    <li><span class='fas fa-cut'></span>Tashad’s Barber Shop</li>
+    <li><span class='fas fa-comment'></span>Trianym</li>
+</ul>-->
+
+            </div>
+        </div>
+    </div>
+
+    <script src='storage/js/plugins.min.js'></script>
+    <script>
+        $(document).ready(function() {
+            $('#menu .fa-question-circle').on('click', function(event) {
+                $(this).toggleClass('active');
+                $('.panel').toggleClass('is-visible');
+            });
+
+            var $map = $('#map').mapplic({
+                source: 'storage/data/en/map.json',
+                height: 'auto',
+                fullscreen: true,
+                lightbox: true,
+                mapfill: true,
+                maxscale: 1
+            });
+
+            $map.on('mapready', function(e, self) {
+                self.moveTo(0, 0, 0, 0);
+
+                // Highlight unplaced venues:
+                var unplaced = ['♀61', 'M27', 'M28', 'G29', 'G30', 'G31', 'C51', 'C54', 'H47', 'L55', 'L58', 'A1', 'A2', 'A3', 'O1', 'O2', 'O3', 'O4', 'O5'];
+                $('.mapplic-list-location').each(function() {
+                    if ($.inArray($(this).attr('data-location'), unplaced) !== -1) {
+                        $(this).addClass('unplaced');
+                    };
+                });
+            });
+        });
+    </script>
+    </body>
+</html>
