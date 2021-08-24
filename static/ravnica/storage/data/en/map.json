@@ -3,57 +3,45 @@
     "mapheight": "4400",
     "categories": [
         {
-            "id": "lady",
+            "id": "Precinct1",
             "color": "#bf5138",
-            "title": "The Lady’s Ward",
+            "title": "Precinct One",
             "show": "false"
         },
         {
-            "id": "market",
+            "id": "Precinct2",
             "color": "#db9537",
-            "title": "Market Ward",
+            "title": "Precinct Two",
             "show": "false"
         },
         {
-            "id": "guildhall",
+            "id": "Precinct3",
             "color": "#4089a6",
-            "title": "Guildhall Ward",
+            "title": "Precinct Three",
             "show": "false"
         },
         {
-            "id": "clerk",
+            "id": "Precinct4",
             "color": "#95ac5f",
-            "title": "Clerk’s Ward",
+            "title": "Precinct Four",
             "show": "false"
         },
         {
-            "id": "hive",
+            "id": "Precinct5",
             "color": "#d95353",
-            "title": "The Hive",
+            "title": "Precinct Five",
             "show": "false"
         },
         {
-            "id": "lower",
+            "id": "Precinct6",
             "color": "#544173",
-            "title": "Lower Ward",
+            "title": "Precinct Six",
             "show": "false"
         },
         {
-            "id": "under",
-            "color": "#333333",
-            "title": "Under Sigil",
-            "show": "false"
-        },
-        {
-            "id": "any",
-            "color": "#795548",
-            "title": "Anywhere in Sigil",
-            "show": "false"
-        },
-        {
-            "id": "other",
-            "color": "#757575",
-            "title": "Other",
+            "id": "Major",
+            "color": "#000000",
+            "title": "Major Trade Ways",
             "show": "false"
         }
     ],
@@ -64,182 +52,71 @@
             "map": "storage/images/en/map.jpg",
             "minimap": "storage/images/en/minimap.jpg",
             "locations": [
-                {
-                    "id": "UbiquitousWayfarer",
-                    "pin": "circular fontawesome fas fa-fire",
-                    "fill": "#544173",
-                    "x": "0.5312",
-                    "y": "0.5718",
-                    "category": "lower",
-                    "title": "Ubiquitous Wayfarer Inn",
-                    "about": "Said to contain more than two dozen portals, to Prime worlds and Outer Planes, as well as permanent doors to the Clerks Ward and The Ladys Ward.",
-                    "description": "<br/>In the Cage: A Guide to Sigil, p. 57.<br/>Dead Gods [Adventure], p. 137.</p><p>NPC: Raien Blackhome, Mirta, Hulester.</p><p>Located in the Lower Ward, this tavern has entrances across the City (especially in the Clerk’s Ward) due to a variety of portals that lead to its location. It houses a large number of portals that lead across the planes. Every week, a magical statue of a wizard in the common room asks a riddle - the first correct answer wins a prize!</p>"
-                },
-                {
-                    "id": "BlackSail",
-                    "pin": "circular fontawesome fas fa-fire",
-                    "fill": "#544173",
-                    "x": "0.5467",
-                    "y": "0.4709",
-                    "category": "lower",
-                    "title": "Black Sail Tavern & Inn",
-                    "about": "A quiet tavern frequented by craftsmen who work near the Armory and the border to The Lady’s Ward. Built from the remnants of an ancient galleon, though none know how it ended up in Sigil.",
-                    "description": "<p><br/>The Eternal Boundary [Adventure], p. 16.<br/>In the Cage: A Guide to Sigil, p. 48.<br/>Dungeon Magazine #55, pp. 18-47.</p><p>NPC: Zaren, Salja, Horrn, Inimigle, Turia.</p><p>The Black Sails tavern stands in the shadow of the Armory, the Doomguard headquarters, at the end of a dark alley between a pair of armorworks. The blackened bowsprit of an ancient galleon juts out over the figurehead. Soot has stained the sails' canvas black. Inside, dark rafters loom over about a dozen curtained alcoves that conceal the furnishings of the tavern's dim common room. Several stained and notched tables stand in the room's center, where groups of sullen crafters gather to drink quietly.</p>"
-                },
-                {
-                    "id": "GreatBazaar",
-                    "pin": "circular large fontawesome fas fa-flag",
-                    "fill": "#db9537",
-                    "x": "0.1625",
-                    "y": "0.7560",
-                    "category": "market",
-                    "title": "The Great Bazaar",
-                    "about": "The Great Bazaar, sometimes called the Grand Bazaar, is the largest market in Sigil.",
-                    "description": "<br/>In the Cage: A Guide to Sigil, p. 96.</p><p>A basher can't help but notice the oddities that is the Great Bazaar: a city of tent stalls and shops, where common, rare, and magical wares are sold daily on the street. Inhabitants from a thousand worlds converse in alien languages and attempt to catch the attention of tourist and shoppers alike. Performers dance on the street corners, musicians play music with strange instruments, theologians preach their philosophies to those willing to listen, and magicians perform acts of prestidigitation.</p>"
-                },
-                {
-                    "id": "TivvumAntiquities",
-                    "pin": "circular fontawesome fas fa-shopping-basket",
-                    "fill": "#db9537",
-                    "x": "0.2120",
-                    "y": "0.7390",
-                    "category": "market",
-                    "title": "Tivvum’s Antiquities",
-                    "image": "storage/images/m1.png",
-                    "about": "Largest supplier of gate keys in Sigil, pays handsomely for gems of any kind.",
-                    "description": "<p>Uncaged: Faces of Sigil, p. 86.<br/>Faction War [Adventure], p. 106.<br/>Planescape Campaign Setting [Boxed set] — Sigil and Beyond, p. 57.<br/>Dragon Magazine #414, p. 2.</p><p>NPC: Alluvius 'Lu' Ruskin (female old-haglike tiefling, tonberry-like)</p><p>This store is in a tower with green marble walls. It is known as good place to buy portal keys and is run by Alluvius 'Lu' Ruskin, a tiefling, old and frail.</p><img src='storage/images/m1.png'>"
-                },
-                {
-                    "id": "DebtorsPole",
-                    "pin": "circular fontawesome fas fa-info",
-                    "fill": "#db9537",
-                    "x": "0.2095",
-                    "y": "0.7170",
-                    "category": "market",
-                    "title": "Debtor’s Pole",
-                    "about": "Merchants from all over Sigil use the pole to post the names of sods who haven't paid their bills.",
-                    "description": "<p>In the Cage: A Guide to Sigil, p. 96</p><p>A basher in need of jink might check the Debtor's Pole. Merchants from all over Sigil use the pole to post the names of sods who haven't paid their bills. Some names have rewards attached. A basher who returns a wanted sod to the creditor named on the pole pockets the reward. </p><p><strong>Visited</strong><br/>"
-                },
-                {
-                    "id": "SophiesSofties",
-                    "pin": "circular fontawesome fas fa-shopping-basket",
-                    "fill": "#db9537",
-                    "x": "0.1795",
-                    "y": "0.7100",
-                    "category": "market",
-                    "title": "Sophie's Softies",
-                    "about": "Pillows of the highest quality, stuffed with feathers of magic beasts, and enchanted with various effects.",
-                    "description": "<p>NPC: Sophie (female half-elf, always yawning)</p><p>Catering to the highest of clientelle, customers of Sophie's leave a bit drowsy (due to an enchantment spell that entices sleep while in the shop) but otherwise highly satisfied.</p>"
-                },
-                {
-                    "id": "FurrowedBrow",
-                    "pin": "circular fontawesome fas fa-shopping-basket",
-                    "fill": "#db9537",
-                    "x": "0.1290",
-                    "y": "0.7715",
-                    "category": "market",
-                    "title": "Furrowed Brow",
-                    "about": "Wards for the mundane, the magical, and the oddly specific situation.",
-                    "description": "<p>NPC: Esme (female halfling, incredibly lucky)</p><p>Esmeralda Turnbottom's mother made wards, and her mother made wards, and her mother made wards; Esme has never been one to spoil a good tradition. The wares range from mundane (a pendant against forgetfulness, carved from gingko bark) to the specialized (ground cat's tooth to drive off harpies).</p><p>Once a year, she closes up shop for a much deserved vacation, and returns with an armful of oddly specific wards. Such as 'protection from a stampede of your own cattle frightened by a thunderclap on a moonless summer night'. And yet they always get bought, and they always end up useful..."
-                },
-                {
-                    "id": "PrimeRumour",
-                    "pin": "circular fontawesome fas fa-shopping-basket",
-                    "fill": "#db9537",
-                    "x": "0.2095",
-                    "y": "0.7270",
-                    "category": "market",
-                    "title": "Prime Rumours",
-                    "about": "Ask a question, get an answer, fees may apply.",
-                    "description": "<p>NPC: Jaerc Morningstar (male aasimar, beautiful and sly)</p><p>A small tent with a golem carved of ebony and ivory, shaped like an elf, sits behind a table. For a small fee, the golem will answer any question you have. Additional gold expedites the request."
-                },
-                {
-                    "id": "PartsPieces",
-                    "pin": "circular fontawesome fas fa-shopping-basket",
-                    "fill": "#db9537",
-                    "x": "0.1720",
-                    "y": "0.8025",
-                    "category": "market",
-                    "title": "Parts & Pieces Meat Shop",
-                    "about": "Meats from monsters of the 'verse by the Slayer of Fiends, Merchant Most Excellent, and Purveyor of Death.'",
-                    "description": "<p><br/>Uncaged: Faces of Sigil, p. 92.<br/>Something Wild [Adventure], p. 16.</p><p>A meat shop that heavily promotes via flyers all around the Market Ward."
-                },
-                {
-                    "id": "BronzeBezants",
-                    "pin": "circular fontawesome fas fa-balance-scale",
-                    "fill": "#db9537",
-                    "x": "0.1515",
-                    "y": "0.8285",
-                    "category": "market",
-                    "title": "Bronze Bezants Loanshop",
-                    "about": "A rigorously honest loan agency but with standards to match.",
-                    "description": "<p>In the Cage: A Guide to Sigil, p. 90.</p><p>NPC: F. Moskin Faz.</p><p>For cutters who need to make big purchases but have little more than cold winds and moths in their pocketbooks, there's the Bronze Bezants. Located in the Market Ward, it's a favored stop for Cagers and out-oftowners alike who're in the market (heh) for major buys.</p>"
-                },
-                {
-                    "id": "AdventurersPurse",
-                    "pin": "circular fontawesome fas fa-fire",
-                    "fill": "#db9537",
-                    "x": "0.1815",
-                    "y": "0.7885",
-                    "category": "market",
-                    "title": "Adventurer's Purse Rest Stop",
-                    "about": "Luxurious rope trick rooms for the wary shopper.",
-                    "description": "<p>Affiliated with <em>The Adventurer's Purse Inn (Greyhawk)</em>, this rest stop is a large tent, a single table, and ten altered and permanent rope trick spells. Customers can enjoy the privacy of a rope trick spell and delivered dining from the rest stop's numerous staff.</p>"
-                },
-                {
-                    "id": "SteelworksFactory",
-                    "pin": "circular fontawesome fas fa-flask",
-                    "fill": "#544173",
-                    "x": "0.5750",
-                    "y": "0.4626",
-                    "category": "lower",
-                    "title": "Steelworks Factory",
-                    "about": "Factory of <em>Steel Predators</em> long since dormant.",
-                    "description": "<p>NPC: Wilhelmina (half elf, naive but dutiful).</p><p>A factory of the great modron Exovus's design, specializing in the construction of Steel Predators and fulfilling assassination contracts.</p>"
-                },
-                {
-                    "id": "FactologiumMuseum",
-                    "pin": "circular fontawesome fas fa-university",
+                 {
+                    "id": "Bulwark",
+                    "pin": "circular fontawesome fas fa-map-signs",
                     "fill": "#95ac5f",
-                    "x": "0.5635",
-                    "y": "0.6245",
-                    "category": "clerk",
-                    "title": "Factologium Museum",
-                    "about": "Museum dedicated to Sigil's factols, present and former.",
-                    "description": "<p>Faction War [Adventure], p. 127.<br/>Uncaged: Faces of Sigil, p. 124.</p><p>NPC: O’pok (sphinx, not amused).</p><p>A library and propaganda museum dedicated to Sigil's factols (leaders of Sigil factions). It has recently begun expanding into general artifact collection."
+                    "x": "0.4320",
+                    "y": "0.5200",
+                    "category": "Precinct4",
+                    "title": "Bulwark",
+                    "about": "A concrete jungle of low rising apartments that sits between Sunhome and Nivix.",
+                    "description": "<img src='storage/images/boros.png'><p>The neighborhood between Sunhome and Nivix is filled with reinforced structures that serve as low-rent apartments and shops. Those who live in the Bulwark are mainly workers or professionals who see opportunity in supporting the Boros garrison.</p>"
                 },
                 {
-                    "id": "FriendlyFiend",
-                    "pin": "circular fontawesome fas fa-shopping-basket",
-                    "fill": "#544173",
+                    "id": "BulwarkHealingCenter",
+                    "pin": "circular fontawesome fas fa-flask",
+                    "fill": "#95ac5f",
                     "x": "0.4320",
                     "y": "0.5322",
-                    "category": "lower",
-                    "title": "Friendly Fiend Magic Shop",
-                    "about": "One-stop shop for scrolls, potions, wands and other magical doodads.",
-                    "description": "<p>Uncaged: Faces of Sigil, p. 8.</p><p>NPC: A’kin, Balaka.</p><p>Magical trinkets and curio shop run by the mysterious but disarmingly polite yugoloth A’kin.</p>"
+                    "category": "Precinct4",
+                    "title": "Bulwark Healing Center",
+                    "about": "The largest veteran's hospital in the 10th District and Boros garrison of Precinct 4.",
+                    "description": "<img src='storage/images/boros.png'><p><strong>NPCs</strong>: Yuri of the Ordruun (Seargent, the boss on the ground, silent, male minotaur), Yavor Svoboda (Recruit, artificer, male human)<p>A small garrison that stands out in the Bulwark is the largest veteran's hospital in the Tenth District. The healers and apothecaries of the Boros Legion offer their services for a hefty fee. Current and former members of the Boros Legion receive free medical care. Angels secure the building and keep order.</p>"
                 },
                 {
-                    "id": "Ditch",
-                    "pin": "circular fontawesome fas fa-star",
-                    "fill": "#544173",
-                    "x": "0.7795",
-                    "y": "0.4565",
-                    "category": "lower",
-                    "title": "The Ditch",
-                    "about": "Sigil's only “natural” body of water, a refuse pit of waste (both humanoid and other) and rain water.",
-                    "description": "<p>In the Cage: A Guide to Sigil, p. 49.</p><p>A stinking mire of a canal that marks the border between the Lower Ward and the Hive Ward, favored dumping ground for deaders where even the Dustmen or corpse-pickers are reluctant to go trawling.</p>"
+                    "id": "Cobblebrute",
+                    "pin": "circular fontawesome fas fa-fire",
+                    "fill": "#95ac5f",
+                    "x": "0.4520",
+                    "y": "0.5400",
+                    "category": "Precinct4",
+                    "title": "Cobblebrute",
+                    "about": "A hidden inn and tavern associated with the Gruul deep within Boros territory.",
+                    "description": "<img src='storage/images/gruul.png'><p><strong>NPCs</strong>: Ruts, An old, guildless goblin who runs the place. His mother was Gruul, he left as he was not a warrior, but he still feels some loyalty to the Clans. He has no love for the Boros, thinking they are puppets who serve the angels.<p>The Cobblebrute is a Gruul Clan safehouse somewhat hidden - it's entrance is the basement and bottom floor of a low-rent apartment building. The establishment is viewed upon poorly by Bulwark inhabitants primarily due to the owners' anti-Orzhovian and anti-Boros philosophy. The Cobblebrute serves as a safe haven for Gruul who find themselves so far from the Red Wastes and so near the Boros Legion. The Boros are well aware of the establishment and choose not to interfere and interrupt it's operations, for fear that future Gruul safehouses go undetected.</p>"
                 },
                 {
-                    "id": "IllDefinedPortal",
+                    "id": "TinStreetP4",
+                    "pin": "circular fontawesome fas fa-road",
+                    "fill": "#000000",
+                    "x": "0.4695",
+                    "y": "0.5610",
+                    "category": "Major",
+                    "title": "Tin Street",
+                    "about": "The longest thoroughfare in the city, a vital center of trade, and a hub of activity day and night. ",
+                    "description": "<img src='storage/images/boros.png'><p>In addition to its shopping attractions, Tin Street is also a popular spot for nightlife, with its many restaurants and theaters. Much of the street runs through the western part of Precinct Four, and other parts are claimed by goblin gangs. The prominent presence of Boros soldiers along the length of Tin Street helps the populace feel safer, but the threat of rubblebelt raiders and goblin thieves remains.</p>"
+                },
+                {
+                    "id": "TinStreetDoor",
                     "pin": "circular fontawesome fas fa-dungeon",
-                    "fill": "#d95353",
-                    "x": "0.7720",
-                    "y": "0.5480",
-                    "category": "hive",
-                    "title": "Ill Defined Portal",
-                    "about": "The doorway which deposited the adventurers in Sigil.",
-                    "description": "<p>A one-way? portal from Faerun to Sigil which required ringing a tuning fork on a hearth anvil of a dwarven clan.</p>"
+                    "fill": "#000000",
+                    "x": "0.4750",
+                    "y": "0.5870",
+                    "category": "Major",
+                    "title": "Tin Street Door",
+                    "about": "An offramp of Tin Street and the Bulwark serve as a doorway to Sigil, the City of Doors.",
+                    "description": "<p>The exact key needed to transport to Sigil from this location is unknown, but to arrive from Sigil one must have a <em>Guild Keyrune</em>.</p>"
+                },
+                {
+                    "id": "Millstone",
+                    "pin": "circular fontawesome fas fa-beer",
+                    "fill": "#544173",
+                    "x": "0.3320",
+                    "y": "0.5822",
+                    "category": "Precinct6",
+                    "title": "Millstone",
+                    "about": "A seedy tavern that caters to the rough and rowdy.",
+                    "description": "<p>A tavern that is well frequented by those who live on Foundry Street.</p>"
                 }
             ]
         }
