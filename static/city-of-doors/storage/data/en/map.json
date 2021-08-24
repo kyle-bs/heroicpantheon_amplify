@@ -261,7 +261,7 @@
                     "category": "guildhall",
                     "title": "Ravnica Embassy",
                     "about": "Headquarters for Ravnican representatives who serve in Sigil.",
-                    "description": "<img src='storage/images/ravnica.png'><p>The embassy serves as one of the only portals to the plane of Ravnica. The majority of Ravnican guilds have representation, except for the Gruul Clans and the Cult of Rakdos. Potential visitors to Ravnica must sell their need to the Azorious Senata ambassador - only those with the truest of intentions are allowed access to the City of Guilds.</p>"
+                    "description": "<img src='storage/images/ravnica.png'><p>Doorway enters <a href='/ravnica/?location=TinStreetDoor'>Ravnica (Tin Street Door)</a>.<br/><p>The embassy serves as one of the only portals to the plane of Ravnica. The majority of Ravnican guilds have representation, except for the Gruul Clans and the Cult of Rakdos. Potential visitors to Ravnica must sell their need to the Azorious Senata ambassador - only those with the truest of intentions are allowed access to the City of Guilds.</p>"
                 }
             ]
         }

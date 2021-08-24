@@ -105,7 +105,7 @@
                     "category": "Major",
                     "title": "Tin Street Door",
                     "about": "An offramp of Tin Street and the Bulwark serve as a doorway to Sigil, the City of Doors.",
-                    "description": "<p>The exact key needed to transport to Sigil from this location is unknown, but to arrive from Sigil one must have a <em>Guild Keyrune</em>.</p>"
+                    "description": "<p>Doorway enters <a href='/city-of-doors/?location=RavnicaEmbassy'>Sigil (Ravnica Embassy)</a>.<br /></p><p>The exact key needed to transport to Sigil from this location is unknown, but to arrive from Sigil one must have a <em>Guild Keyrune</em>.</p>"
                 },
                 {
                     "id": "Millstone",
